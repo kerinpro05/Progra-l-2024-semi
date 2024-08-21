@@ -5,3 +5,7 @@ C:\Users\usuario\Desktop\Progra-l-2024-semi\Mi primer proyecto\bin\Debug\Mi prim
 C:\Users\usuario\Desktop\Progra-l-2024-semi\Mi primer proyecto\bin\Debug\Mi primer proyecto.pdb
 C:\Users\usuario\Desktop\Progra-l-2024-semi\Mi primer proyecto\obj\Debug\Mi primer proyecto.exe
 C:\Users\usuario\Desktop\Progra-l-2024-semi\Mi primer proyecto\obj\Debug\Mi primer proyecto.pdb
+C:\Users\usuario\Desktop\Progra-l-2024-semi\Progra-l-2024-semi1\Mi primer proyecto\obj\Debug\Mi primer proyecto.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\Progra-l-2024-semi\Progra-l-2024-semi1\Mi primer proyecto\obj\Debug\Mi primer proyecto.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Progra-l-2024-semi\Progra-l-2024-semi1\Mi primer proyecto\obj\Debug\Mi primer proyecto.exe
+C:\Users\usuario\Desktop\Progra-l-2024-semi\Progra-l-2024-semi1\Mi primer proyecto\obj\Debug\Mi primer proyecto.pdb
