@@ -11,14 +11,12 @@ namespace Mi_primer_proyecto
     {
         static void Main(string[] args)
         {
-            //Prioridad de los operadores aritméticos.
-            //ejercicio obtener el promedio de una serie de numeros
-            int[] serie = new int[] { 5, 4, 6, 8, 9 };  //32
-            int suma = 0;
-            foreach (int num en serie ) {
-                suma += num;
-                //estructuras de control.
-                //1. si. ejercicio. pedir al usuario la edad si es mayor de edad que le diga bienvenido.
+            //estructuras de control.
+            //1. si. ejercicio. pedir al usuario la edad si es mayor de edad que le diga bienvenido.
+            Consola.Write(" Edad: ");
+            int edad = int.Parse(Console.ReadLine());​​
+            cadena continuar = " s ";
+            mientras(continuar == " s ")  {
                 Consola.Write(" Edad: ");
                 int edad = int.Parse(Console.ReadLine());​​
 
@@ -27,12 +25,38 @@ namespace Mi_primer_proyecto
                 }
                 demás  {
                     Consola.WriteLine(" Eres un adolescente, disfruta de la vida. ");
+                    si(edad < 0)  {
+                        Consola.WriteLine(" Edad incorrecta. ");
+                    }
+                    de lo contrario si(edad <= 2 )  {
+                        Consola.WriteLine(" Eres un bebe ");
+                    }
+                    de lo contrario si(edad<  12 )  {
+                        Consola.WriteLine(" Eres un niño ");
+                    }
+                    de lo contrario si(edad<  18 )  {
+                        Consola.WriteLine(" Eres un adolescente. ");
+                    }
+                    de lo contrario si(edad <= 65 )  {
+                        Consola.WriteLine(" Bienvenido al mundo de las reposabilidades. ");
+                    }
+                    de lo contrario si(edad <= 80 )  {
+                        Consola.WriteLine(" Eres un adulto mayor ");
+                    }
+                    demás  {
+                        Consola.WriteLine(" Larga vida ");
+                    }
+                    Consola.Write(" Desea continuar presionando s, sino cualquier tecla. ");
+                    continuar = Console.ReadLine();
                 }
-                prom  decimal = suma / serie.Longitud;
-                Consola.WriteLine(" La suma es: {0}, el promedio {1} ", suma, prom);
 
                 //Pausa.
                 Consola.ReadLine();
+
+
+
+
+
             }
     }
-                            
+                                               
