@@ -10,26 +10,24 @@ namespace Mi_primer_proyecto
     {
         static void Main(string[] args)
         {
-            Console.Write(" Num1 : ");​
-            sbyte num1 = sbyte.Parse(Console.ReadLine());​​​   
-            Booleano comprobar = true;
-            Console.WriteLine(" El valor es: {0} ", comprobar);
+            Booleano comprobar = verdadero;
+            Consola.WriteLine(" El valor es: {0} ", comprobar);
+            //Prioridad de los operadores aritméticos.
+            //se pone el sufijo m para la división con decimales.
+            respuesta  decimal = 5 + 8 - 2 * 5 / 4m + 1;  //14.75 valor incorrecto; 11.5 -> Valor correcto
+            Consola.WriteLine(" La respuesta es: {0} ", respuesta);
 
-            Console.Write(" Num2 : ");​​
-            sbyte num2 = sbyte.Parse(Console.ReadLine());​​​   
-            Console.Write(" Nombre : ");
-            cadena nombre = Console.ReadLine();​​  
+            Consola.Escribir(" Nombre: ");
+            cadena nombre = Console.ReadLine();​​
 
-            int suma = num1 + num2;
-
-            Console.WriteLine(" La suma de {0} + {1} = {2} ", num1, num2, suma);
-            Console.WriteLine(" Hola {0} bienvenido ", nombre);
+            Consola.WriteLine(" Hola {0} bienvenido ", nombre);
 
             FechaHora fechaActual = new DateTime();
             fechaActual = DateTime.Now;
-            Console.WriteLine(" La fecha actual es: {0} ", fechaActual);
+            Consola.WriteLine(" La fecha actual es: {0} ", fechaActual);
+            Consola.WriteLine(" La división de 5/4 es {0} ", 5 / 4);
             //Pausa.
-            Console.ReadLine();
+            Consola.ReadLine();
 
         }
     }
