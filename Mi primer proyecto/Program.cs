@@ -12,9 +12,10 @@ namespace Mi_primer_proyecto
         static void Main(string[] args)
         {
 
+            //determinar si cada número de la serie es primo.
+
             int[] serie = new int[] { 5, 9, 4, 6, 3, 2, 7, 11, 15, 17, 21 };
             foreach (int num en serie ) {
-                Consola.WriteLine(" El num {0} es {1} ", num, num % 2 == 0 ? " Par " : " Impar ");
                 entero i = 1,
                     n = 0;
                 mientras(i <= num && n <= 2) {
@@ -25,7 +26,15 @@ namespace Mi_primer_proyecto
                 }
                 Consola.WriteLine(" EL numero {0} {1} ", num, n <= 2 ? " es primo " : " NO es primo ");
             }
-            Consola.ReadLine();
+            //Uso de funciones...
+            Consola.WriteLine(" La suma de 10+5={0} ", suma());
+
+            Consola.ReadLine();​
+        }
+        int estático suma()
+        {
+            int respuesta = 10 + 5;
+            devolver respuesta;
 
 
         }
