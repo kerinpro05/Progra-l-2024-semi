@@ -14,42 +14,40 @@ namespace Mi_primer_proyecto
 
             //ejercicio encontrar la media aritmetica y la desviación típica de una serie de números.
 
-            Consola.Escribir(" Num 1 : ");
-            int num1 = int.Parse(Console.ReadLine());​​​
-
-            Consola.Escribir(" Num 2 : ");
-            int num2 = int.Parse(Console.ReadLine());
-
-            Consola.WriteLine(" La suma de {0}+{1}={2} ", num1, num2, suma(num1, num2));
             int[] serie = new int[] { 1, 2, 3, 4, 5 };
             Consola.WriteLine(" La media aritmetica es: {0}, y la desviación típica es: {1} ", media(serie), tipica(serie));
+            Consola.Write(" Ingrese la serie de números separados por comas: ");
+            Cadena serie = Console.ReadLine();​​
+            Cadena[] numeros = serie.Dividir(',');
+
+            Consola.WriteLine(" La media aritmetica es: {0}, y la desviacion tipica es: {1} ", media(numeros), tipica(numeros));
 
             Consola.ReadLine();​
         }
-        int estático suma()
+        media doble  estática(int[] serie)
         {
-            int respuesta = 10 + 5;
-            devolver respuesta;
-            media doble  estática(int[ ] serie) {
+            media doble  estática(cadena[ ] serie) {
                 doble media = 0;
                 foreach (int num en serie )  {
                     medios += num;
-                }
-                retorno medio / serie.Longitud;
-            }
-            int estático suma(int  a, int  b)  {
-                int respuesta = a + b;
-                devolver respuesta;
-                tipica doble  estática(int[ ] serie) {
-                    doble tipica = 0,
-                            m = media(serie);
-                    foreach (int num en serie )  {
-                        típica += Matemáticas.Pow(núm - m, 2);
+                    foreach (cadena num en serie )  {
+                        media += int.Parse(num);
                     }
-                    típica = Matemáticas.Sqrt(tipica / serie.Longitud);
-                    devuelve Math . Round(tipica, 2);
-
+                    retorno medio / serie.Longitud;
                 }
+                tipica doble  estática(int[ ] serie) {
+                    estática doble  típica(cadena[ ]  serie)  {
+                        doble tipica = 0,
+                                m = media(serie);
+                        foreach (int num en serie )  {
+                            típica += Matemáticas.Pow(núm - m, 2);
+                            foreach (cadena num en serie )  {
+                                típica += Matemáticas.Pow(int.Parse(núm) - m, 2);​
+            }
+                            típica = Matemáticas.Sqrt(tipica / serie.Longitud);
+                            devuelve Math . Round(tipica, 2);
+
+                        }
 
         
 
